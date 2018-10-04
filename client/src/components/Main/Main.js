@@ -44,6 +44,9 @@ class Main extends Component{
 			}
 			pickupLineAPI.newPickupLine(data).then(dbRes => {
 				console.log(dbRes);
+				this.setState({
+					pickupLineInput:""
+				})
 			});
 		}
 	}

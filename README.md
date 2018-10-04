@@ -1,10 +1,18 @@
 # Pickup Line Site
 
-Run
-`yarn installDeps`
-`yarn start`
+```
+git clone git@github.com:The-Tuo-Duo/RandomPickupLine.git
+```
 
-or
-`npm i`
-`cd client npm i`
-`npm start`
+Run
+```
+cd RandomPickupLine
+yarn installDeps
+yarn start
+```
+
+Open 2nd terminal and run:
+
+```
+mongod
+```
